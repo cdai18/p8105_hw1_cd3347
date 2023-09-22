@@ -94,9 +94,9 @@ problem2_df = tibble(
  vec_factor = factor(c("executive", "executive", "executive","legislative", "legislative", "legislative", "judicial", "judicial", "judicial", "judicial"))
 )
 
+problem2_df
+
 ```
-
-
 
 
 
