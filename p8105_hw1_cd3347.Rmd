@@ -89,9 +89,9 @@ set.seed(1)
 
 problem2_df = tibble(
  x = rnorm(10),
- vec_logical = c(x > 0),
- vec_char = c("Do", "you", "remember", "the", "21st", "night", "of", "September", "!", "!"),
- vec_factor = factor(c("executive", "executive", "executive","legislative", "legislative", "legislative", "judicial", "judicial", "judicial", "judicial"))
+ greater_than_0 = c(x > 0),
+ earth_Wind_fire = c("Do", "you", "remember", "the", "21st", "night", "of", "September", "!", "!"),
+ government = factor(c("executive", "executive", "executive","legislative", "legislative", "legislative", "judicial", "judicial", "judicial", "judicial"))
 )
 
 problem2_df
